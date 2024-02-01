@@ -1,0 +1,148 @@
+body{
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+.first-page{
+    position:relative;
+    background-color: #AFC8AD;
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+.first-page>.tree1{
+    position:absolute;
+    left:8%;
+    top:3%;
+}
+.first-page>.tree2{
+    position:absolute;
+    right:8%;
+    top:3%;
+}
+.first-page>.bridge1{
+    position:absolute;
+    left:5%;
+    bottom:14%;
+}
+.first-page>.bridge2{
+    position:absolute;
+    right:5%;
+    bottom:14%;
+}
+.first-page>.forest{
+    position:absolute;
+    left:47%;
+    bottom: 2%;
+}
+.first-page>.tiger{
+    position:absolute;
+    left:47%;
+    bottom: 2%;
+}
+.first-page>.text{
+    position:relative;
+    top:25%;
+}
+.text>p{
+    font-family: 'Courgette', cursive;
+    font-size:40px;
+    font-weight:100;
+    color:#483838;
+    text-align:center;
+}
+.content>.text-container{
+    display:grid;
+    grid-template-columns:2fr 4fr 2fr;
+    grid-template-rows:1fr;
+}
+.content img{
+    height:200px;
+    border-radius: 35%;
+    margin:30px 0;
+}
+p,.education .achievements,.work-experience .roles,.projects .project-role,.skills .skill-list{
+    font-family: 'Nunito Sans', sans-serif;
+    color:#483838;
+    font-size:20px;
+    text-align:justify;
+    font-weight: 400;
+}
+h1{
+    font-family: 'Courgette', cursive;
+    color:#483838;;
+    font-size:40px;
+    margin:70px 0;
+}
+.second-page,.third-page,.fourth-page,.fifth-page{
+    margin-top:70px;
+}
+.third-page .education{
+    display:grid;
+    grid-template-columns:2fr 4fr 2fr;
+    grid-template-rows:1fr
+}
+.education>.achievements-container{
+    display:flex;
+}
+.education .achievements{
+    list-style-image: url(./images/tick.png);
+}
+.work-experience .roles,.projects .project-role,.skills .skill-list{
+    list-style-image:url(./images/tick2.png);
+    margin:0;
+}
+.achievements-container>img{
+    align-self:center;
+}
+.work-experience,.fourth-page .projects{
+    display:grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    grid-template-rows:1fr;
+    gap:10px;
+}
+.work-experience>.work1,.work-experience>.work2, .projects>.project1, .projects>.project2{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.work-experience h3,.work-experience h5, .work-experience p,.projects h3,.projects h5{
+    margin:0 0 15px 20px;
+}
+h5,h3{
+    font-family: 'Nunito Sans', sans-serif;
+    color:#483838;
+}
+.fourth-page .skills{
+    display:grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    gap:10px;
+}
+.skills>.skill1,.skills>.skill2,.skills>.skill3{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.skills img,.skills p{
+    padding-left:20px;
+}
+.fifth-page>.contact-me{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.contact-me>.btn.btn-secondary{
+    margin:25px 0 150px 0;
+}
+.contact-me>h3{
+    margin-top:150px;
+}
+.contact-me>.confirmation{
+    font-size:15px;
+    margin-bottom:20px;
+}
+.footer{
+    background-color: #AFC8AD
+}
