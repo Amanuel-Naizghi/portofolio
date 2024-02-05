@@ -146,3 +146,27 @@ h5,h3{
 .footer{
     background-color: #AFC8AD
 }
+
+@media(max-width:700px){
+    p,.education .achievements,.work-experience .roles,.projects .project-role,.skills .skill-list{
+        font-size:15px;
+    }
+    .education>.achievements-container{
+        display:flex;
+        flex-direction:column;
+    }
+    .education>.achievements-container .achievements{
+        margin-top:15px;
+    }
+    .fourth-page .skills{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .skills .skill-list{
+        margin-bottom:20px;
+    }
+    .fifth-page footer span{
+        font-size:15px;
+    }
+}
